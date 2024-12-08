@@ -11,19 +11,19 @@ En esta pagina se muestra un resumen de los datos presentes en el dashboard.
 
 1.-Total de Ventas: Indica el monto total de ingresos por las ventas efectuadas 
 
-_Total de Ventas = (Cantidad*Precio de Venta)_
+_TOTAL VENTA = SUMX(Ventas,Ventas[QUANTITY]*(Ventas[SELLING PRICE])*(1-Ventas[DISCOUNT %]))_
 
 ![image](https://github.com/user-attachments/assets/2d9d679b-6f1e-4619-b2af-f552f41386a5)
 
 2.-Total de Costos: Indica los costos totales incurridos por la totalidad de la oferta  
 
-_Total de Costos = (Cantidad*Precio de Costo)_
+_TOTAL COSTO = SUMX(Ventas, Ventas[QUANTITY]*Ventas[BUYING PRICE])_
 
 ![image](https://github.com/user-attachments/assets/7b4b46f9-6d82-4805-aa2c-ef01014a5170)
 
 3.-Ganancias Totales : Indica las ganancias totales por la venta   
 
-_Ganancias Totales = (Total de Ventas-Total de Costos)_
+_UTILIDAD = [TOTAL VENTA]-[TOTAL COSTO]_
 
 ![image](https://github.com/user-attachments/assets/c7e6d02e-03d6-4060-99a9-62c5b7f769f4)
 
