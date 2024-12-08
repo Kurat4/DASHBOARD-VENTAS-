@@ -29,7 +29,7 @@ _UTILIDAD = [TOTAL VENTA]-[TOTAL COSTO]_
 
 4.-% Margen : Indica el margen de ganancia   
 
-_% Margen = (Precio Venta-Precio Costo)/Precio Venta_
+_% MARGEN = ([TOTAL VENTA]-[TOTAL COSTO])/[TOTAL VENTA]_
 
 ![image](https://github.com/user-attachments/assets/3be17cb0-a257-4d2d-ac4e-4341d00efbfc)
 
